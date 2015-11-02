@@ -1,0 +1,151 @@
+body {
+	font-size: 8pt;
+	font-family: Verdana, Tahoma;
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
+	margin:0;
+	padding: 0;
+}
+#my_page {
+	clear:left;
+	clear:right;
+	text-align: center;
+	width:800px;
+	margin-bottom: 0;
+	background-repeat: repeat-x;
+	background-color: #A2B964;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+#my_background {
+	background-repeat: repeat;
+}
+.my_banner {
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/bannerbackground.png);
+	background-repeat:repeat-x;
+	height:50px;
+	text-align: center;
+}
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana;
+	text-align: center;
+}
+.my_content  {
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	border: 4px solid gray;
+	width:800px;
+	overflow:hidden;
+}
+.no_border {
+	border:0;
+	float:right;
+	margin-bottom: 0;
+}
+#validator1 {
+	border:0;
+	position:fixed;
+	bottom:33px;
+	right:0%;
+}
+#validator2 {
+	border:0;
+	position:fixed;
+	bottom:0%;
+	right:0%;
+}
+.my_float {
+	width:250px !important;
+	float:right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial;
+}
+.second-line {
+	font-style: italic;
+}
+.rotten-area {
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rottenbackground.png);
+	background-repeat: repeat-x;
+	height:83px;
+	vertical-align: bottom;
+}
+.movie-info {
+	width:250px;
+}
+.movie-info dd {
+	position:relative;
+	left:10px;
+}
+.movie-info dt {
+	position:relative;
+	left:10px;
+	font-weight: bold;
+	margin-top: 1em;
+}
+.comment-area {
+	width:550px;
+	float:left;
+	display:inline;
+	background-color: #A2B964;
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
+}
+#num {
+	color:red;
+	font-size: 48pt;
+	font-weight: bold;
+	display: inline;
+	vertical-align: top;
+	position:relative;
+	bottom:-5px;
+}
+#review-title {
+	color:white;
+	font-size: 8pt;
+	display:inline;
+	vertical-align: bottom;
+	position:relative;
+	top:-13px;
+}
+.comment-one {
+	position:relative;
+	width:47%;
+	float:left;
+	margin-left: 2%;
+}
+.comment-two {
+	position:relative;
+	width:47%;
+	float:right;
+	margin-right: 2%;
+}
+.quote-box {
+	border:2px solid gray;
+	font-weight: bold;
+	font-size:8pt;
+	background-color: #E1D697;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	overflow:hidden;
+	clear:left;
+}
+.comment-icon {
+	float:left;
+	margin-right: 5px;
+}
+.comment-name {
+	float:left;
+	position:relative;
+	top:-12px;
+	margin-bottom: 3em;
+}
+.float-img {
+	float:left;
+	margin-right: 5px;
+}
