@@ -1,0 +1,77 @@
+body {
+	text-align: center;
+}
+#gameground {
+	margin-top: 30px;
+	margin-right:auto;
+	margin-left: auto; 
+	margin-bottom: 35px;
+	width: 235px;
+	height: 142px;
+	padding: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}
+.holes {
+	width :15px;
+	height:15px;
+	margin:0px;
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-left: 6px;
+}
+h3 {
+	font-size: 20px;
+	position:relative;
+	Left:-150px;
+}
+#line1 {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#my_start {
+	display:inline;
+	width:185px;
+	margin-right: 50px;
+	text-align: left;
+}
+#time {
+	width:30px;
+	position:relative;
+}
+#line2 {
+	display:inline;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+#status {
+	width:180px;
+	margin-right: 50px;
+}
+#score {
+	width:30px;
+}
+#trail {
+	position:relative;
+	left:-100px;
+}
+#li {
+	list-style-type: none;
+	display:block;
+}
+#trail li:nth-child(1) {
+	position:relative;
+	left:60px;
+}
+#trail li:nth-child(2) {
+	position:relative;
+	left:-76px;
+}
