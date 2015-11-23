@@ -1,0 +1,190 @@
+body {
+	font-family: cursive, Arial, Sans-serif;
+	background-image: url(../images/body_background.jpg);
+	background-size: cover;
+}
+
+#container {
+	position: fixed;
+	width: 420px;
+	height: 440px;
+	left: 50%;
+	top: 50%;
+	margin-left: -210px;
+	margin-top: -200px;
+}
+
+#total_area {
+	position: relative;
+	width: 420px;
+	height: 440px;
+	background-repeat: repeat;
+}
+
+#title_show {
+	position: absolute;
+	top: -100px;
+	left: 0px;
+	width: 420px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#tips_show {
+	position: absolute;
+	top: -50px;
+	left: -100px;
+	width: 620px;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#control_area {
+	position:absolute;
+	width: 420px;
+	height: 40px;
+	top: 0;
+	left: 0;
+}
+
+#start_button {
+	width: 70px;
+	height: 30px;
+	margin-left: 32px;
+	margin-top: 5px;
+	margin-right: 35px;
+	background-color: #996600;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	font-family: cursive, Arial, Sans-serif;
+}
+
+#time_count {
+	width: 50px;
+	margin-right: 35px;
+	background-color: #996600;
+}
+
+#steps_count {
+	width: 50px;
+	background-color: #996600;
+}
+
+#background {
+	position: absolute;
+	top: 397px;
+	left: 0px;
+	width: 420px;
+	height: 43px;
+}
+
+#change_background {
+	height: 30px;
+	width: 150px;
+	position: absolute;
+	bottom: 7px;
+	background-color: #996600;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	font-family: cursive, Arial, Sans-serif;
+	margin-left: 135px;
+}
+
+.changed_show {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border: 1px solid gray;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 1;
+	transition:all 0.5s;
+}
+
+#background .backgroundclass {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	top:10px;
+	left: 160px;
+	border: 1px solid gray;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0;
+	transition:all 0.8s;
+}
+
+/*设置展示出来的各个背景图的内容和具体位置*/
+#background_1 { background-image: url(../images/duck.png); top: 60px; left: -90px; }
+#background_2 { background-image: url(../images/tiger.png); top: 60px; left: 70px; }
+#background_3 { background-image: url(../images/monkey.png); top: 60px; left: 230px; }
+#background_4 { background-image: url(../images/master.png); top: 60px; left: 390px; }
+#background_5 { background-image: url(../images/bird.png); top: -90px; left: 430px; }
+#background_6 { background-image: url(../images/mantis.png); top: -250px; left: 430px; }
+#background_7 { background-image: url(../images/crocodile.png); top: -410px; left: 430px; }
+#background_8 { background-image: url(../images/panda.jpg); top: -410px; left: -130px; }
+#background_9 { background-image: url(../images/rhinoceros.png); top: -250px; left: -130px; }
+#background_10 { background-image: url(../images/leopard.png); top: -90px; left: -130px; }
+
+#game_area {
+	position: absolute;
+	width: 357px;
+	height: 357px;
+	top: 40px;
+	left: 31px;
+	background-repeat: repeat;
+}
+
+#game_area div {
+	position: absolute;
+	width: 88px;
+	height: 88px;
+	background-repeat: no-repeat;
+	border: 1px solid gray;
+	transition:all 0.5s;
+}
+
+#game_area div:hover {
+	transform:scale(1.05);
+	transition:all 0.3s;
+}
+
+/*设置默认下为熊猫图*/
+#game_area .position { background-image: url(../images/panda.jpg); }
+
+/*设置选择的其他背景拼图*/
+.changed_game_area1 { background-image: url(../images/duck.png); }
+.changed_game_area2 { background-image: url(../images/tiger.png); }
+.changed_game_area3 { background-image: url(../images/monkey.png); }
+.changed_game_area4 { background-image: url(../images/master.png); }
+.changed_game_area5 { background-image: url(../images/bird.png); }
+.changed_game_area6 { background-image: url(../images/mantis.png); }
+.changed_game_area7 { background-image: url(../images/crocodile.png); }
+.changed_game_area8 { background-image: url(../images/panda.jpg); }
+.changed_game_area9 { background-image: url(../images/rhinoceros.png); }
+.changed_game_area10 { background-image: url(../images/leopard.png); }
+
+/*设置拼图区域每一块的位置和背景*/
+#position_1 { top: 0px; left: 0px; background-position: 0px 0px; }
+#position_2 { top: 0px; left: 89px; background-position: -88px 0px; }
+#position_3 { top: 0px; left: 178px; background-position: -176px 0px; }
+#position_4 { top: 0px; left: 267px; background-position: -264px 0px; }
+#position_5 {top: 89px; left: 0px; background-position: 0px -88px; }
+#position_6 { top: 89px; left: 89px; background-position: -88px -88px; }
+#position_7 { top: 89px; left: 178px; background-position: -176px -88px; }
+#position_8 { top: 89px; left: 267px; background-position: -264px -88px; }
+#position_9 { top: 178px; left: 0px; background-position: 0px -176px; }
+#position_10 { top: 178px; left: 89px; background-position: -88px -176px; }
+#position_11 { top: 178px; left: 178px; background-position: -176px -176px; }
+#position_12 { top: 178px; left: 267px; background-position: -264px -176px; }
+#position_13 { top: 267px; left: 0px; background-position: 0px -264px; }
+#position_14 { top: 267px; left: 89px; background-position: -88px -264px;}
+#position_15 { top: 267px; left: 178px; background-position: -176px -264px; }
+#position_16 { top: 267px; left: 267px; opacity: 0; }
+#position_16:hover { opacity: 0; }
