@@ -1,0 +1,46 @@
+table, table  th, table  td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	padding: 4px;
+	text-align: left;
+}
+
+body {
+	font-weight: bold;
+	font-family: Georgia, Serif, "Times New Roman";
+	font-size: 14px;
+}
+
+thead {
+	background-color: rgb(6, 24, 136);
+	color:white;
+}
+
+th {
+	font-weight: bolder;
+	position: relative;
+	background-color: rgb(6, 24, 136);
+	color: white;
+	cursor: pointer;
+}
+
+.hover {
+	background-color:  rgb(166, 174, 255);
+}
+
+.even {
+	background-color: rgb(224, 224, 224);
+}
+
+#staff th, #staff td {
+	width:90px;
+}
+
+.logo {
+	width: 16px;
+	position: absolute;
+	right: 3px;
+	top: -11px;
+}
+
+
