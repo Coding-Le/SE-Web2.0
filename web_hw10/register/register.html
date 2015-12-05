@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>注册界面</title>
+	<link rel="stylesheet" href="register.css">
+</head>
+<body>
+	<div id="panel">
+		<form action="post" method="post">
+			<h1>用户注册</h1>
+			<div id='error_clue'>Please input your information</div>
+			<div>
+				用户名<input type ="text" name='username' id='username'>
+			</div>
+			<div>
+				学号<input type="text" name='number' id='number'>
+			</div>
+			<div>
+				电话<input type="text" name='phoneNumber' id='phoneNumber'>
+			</div>
+			<div>
+				邮箱<input type="text" name='email' id='email'>
+			</div>
+			<div id="button_area">
+				<input id = 'mybutton' type="submit" value="Submit" method='post'>
+				<input type="reset">
+			</div>
+		</form>
+	</div>
+	<script src="jquery.js"></script>
+	<script src='register.js'></script>
+</body>
+</html>

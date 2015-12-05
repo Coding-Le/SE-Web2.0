@@ -1,0 +1,25 @@
+body {
+	background: url('img/background2.jpg');
+}
+
+#panel {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+#block {
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#block div {
+	margin:10px 0;
+}
