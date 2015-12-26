@@ -1,0 +1,7 @@
+Please open the terminal to perform the following action:
+1. install npm dependence:
+npm install
+2. first you need to install mongoDB, then you should start the database and create data folder:
+mongod -dbpath ./data
+3. open the nodejs to listen on port 8000:
+nodejs server.js
